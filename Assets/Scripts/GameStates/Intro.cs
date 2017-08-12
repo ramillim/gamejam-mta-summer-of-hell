@@ -13,9 +13,14 @@ public class Intro : MonoBehaviour
         gm.OnStateChange += HandleOnStateChange;
     }
 
-    private void HandleOnStateChange()
+    private void Start()
     {
         gm.SetState(GameState.Playing);
+    }
+
+    private void HandleOnStateChange()
+    {
+        Debug.Log("State change... preparing to load next scenes.");
         Invoke("LoadNextScene", 3f);
     }
 

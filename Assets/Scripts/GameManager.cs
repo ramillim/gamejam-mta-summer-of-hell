@@ -1,6 +1,6 @@
-﻿using UnityEngine;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine;
 
 public enum GameState
 {
@@ -12,31 +12,14 @@ public enum GameState
 
 public delegate void OnStateChangeHandler();
 
-public class GameManager : MonoBehaviour
+public class GameManager : Singleton<GameManager>
 {
-    public static GameManager instance;
-
     public event OnStateChangeHandler OnStateChange;
 
     [SerializeField]
     private GameState currentState;
 
     public GameState CurrentState { get; private set; }
-
-    private void Awake()
-    {
-        if (instance == null)
-        {
-            instance = this;
-        }
-        else if (instance != this)
-        {
-            Destroy(gameObject);
-            return;
-        }
-
-        DontDestroyOnLoad(transform.gameObject);
-    }
 
     public void SetState(GameState state)
     {
