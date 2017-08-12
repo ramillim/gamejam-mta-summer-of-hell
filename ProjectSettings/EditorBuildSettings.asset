@@ -10,4 +10,7 @@ EditorBuildSettings:
     guid: b28c4d92de71cb94e94805819ee27b4f
   - enabled: 1
     path: Assets/Scenes/Sandbox.unity
+    guid: 45adc2a97de03664eb43240359ae48d7
+  - enabled: 1
+    path: Assets/Scenes/RealWorld.unity
     guid: 00000000000000000000000000000000
