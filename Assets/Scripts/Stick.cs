@@ -60,6 +60,5 @@ public class Stick : MonoBehaviour
         if (speed > 0f)
             minSpeed = Mathf.Min (minSpeed, speed);
         maxSpeed = Mathf.Max (maxSpeed, speed);
-        Debug.LogFormat ("Max: {0}, Min: {1}",maxSpeed, minSpeed);
     }
 }
