@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4286829189121022}
   - component: {fileID: 33731186889448646}
   - component: {fileID: 23139768810609188}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Legs001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38,7 +38,7 @@ GameObject:
   - component: {fileID: 4147600114454270}
   - component: {fileID: 33348319233393246}
   - component: {fileID: 23417827043608770}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Wing1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55,7 +55,7 @@ GameObject:
   - component: {fileID: 4403678676852456}
   - component: {fileID: 33605904154542122}
   - component: {fileID: 23105090780128792}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Wing002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72,7 +72,7 @@ GameObject:
   - component: {fileID: 4861613012973546}
   - component: {fileID: 33228037101322182}
   - component: {fileID: 23377942540145280}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Hornet001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -91,9 +91,10 @@ GameObject:
   - component: {fileID: 111795592412807188}
   - component: {fileID: 136353148696847388}
   - component: {fileID: 114969606369571648}
-  m_Layer: 0
+  - component: {fileID: 114326799412828794}
+  m_Layer: 10
   m_Name: Wasp
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -117,8 +118,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1877098751202154}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.16, y: 1.25, z: 2.17}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.7453369, y: 31.072708, z: -35.79113}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children:
   - {fileID: 4861613012973546}
@@ -126,7 +127,7 @@ Transform:
   - {fileID: 4403678676852456}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 22.08, z: 0}
 --- !u!4 &4286829189121022
 Transform:
   m_ObjectHideFlags: 1
@@ -353,6 +354,17 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &114326799412828794
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1877098751202154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83488717e03f87146a4ac706eb573a99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114969606369571648
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -15,6 +15,8 @@ TagManager:
   - Saucers
   - Torso
   - OtherSaucers
+  - Weapon
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -24,9 +26,9 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
+  - Weapons
+  - Environment
+  - Enemies
   - 
   - 
   - 
