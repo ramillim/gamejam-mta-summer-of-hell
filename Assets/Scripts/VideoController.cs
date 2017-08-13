@@ -21,7 +21,7 @@ public class VideoController : MonoBehaviour
     {
         if (player.isPlaying)
         {
-            Debug.Log("Frame: " + player.frame + " / " + totalFrames);
+            //Debug.Log("Frame: " + player.frame + " / " + totalFrames);
         }
     }
 

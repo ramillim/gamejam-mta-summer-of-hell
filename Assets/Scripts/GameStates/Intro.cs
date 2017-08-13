@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class Intro : MonoBehaviour
 {
+    public string nextScene;
+
     GameManager gm;
 
     private void Awake()
@@ -26,6 +28,6 @@ public class Intro : MonoBehaviour
 
     private void LoadNextScene()
     {
-        SceneManager.LoadSceneAsync("Sandbox");
+        SceneManager.LoadSceneAsync(nextScene);
     }
 }

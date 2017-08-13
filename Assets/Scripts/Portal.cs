@@ -11,14 +11,11 @@ public class Portal : VRTK_InteractableObject
     public override void StartUsing(VRTK_InteractUse usingObject)
     {
         base.StartUsing(usingObject);
-        // TODO: Animate Door
         LoadScene();
     }
 
     private void LoadScene()
     {
-        Debug.Log("Used");
-        // TODO: Serialize and pass relevant data to the new scene.
-        //SceneManager.LoadSceneAsync(nextScene);
+        SceneManager.LoadSceneAsync(nextScene);
     }
 }

@@ -8,7 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Intro.unity
     guid: b28c4d92de71cb94e94805819ee27b4f
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Sandbox.unity
     guid: 45adc2a97de03664eb43240359ae48d7
   - enabled: 1
@@ -19,4 +19,4 @@ EditorBuildSettings:
     guid: db966199638f01c4386a2bb52fc85219
   - enabled: 1
     path: Assets/Scenes/VirtualSubway2.unity
-    guid: 00000000000000000000000000000000
+    guid: e7876524e8723594d993f7a928922684
