@@ -5,18 +5,14 @@ using UnityEngine;
 public class TakeDamage : MonoBehaviour
 {
     public AudioClip hitSound;
+    public AudioSource audioSource;
 
-    private void Awake()
-    {
-        GetComponent<AudioSource>().playOnAwake = false;
-        GetComponent<AudioSource>().clip = hitSound;
-    }
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.tag == "Weapon")
         {
-            Destroy(gameObject);
-            GetComponent<AudioSource>().Play();
+            audioSource.PlayOneShot(hitSound);
+            Destroy(gameObject, 1f);
         }
     }
 }
