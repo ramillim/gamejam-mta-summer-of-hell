@@ -20,11 +20,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4128419298197302}
   - component: {fileID: 95537853150017990}
-  - component: {fileID: 114793494483337446}
-  - component: {fileID: 195770338952544610}
-  - component: {fileID: 114955663240139130}
   - component: {fileID: 114901916428936816}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: MOUSEpants
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39,7 +36,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4649817983620666}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: befriended:scotthall:RightUpLegRoll
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54,7 +51,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4812387832763130}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: befriended:scotthall:LeftLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -69,7 +66,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4254823223105828}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: befriended:scotthall:RightUpLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -84,7 +81,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4598911528771498}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: befriended:scotthall:RightFoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -100,7 +97,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4981666864292008}
   - component: {fileID: 65198060820443982}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: group6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -115,7 +112,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4927240892515168}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: group4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -131,7 +128,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4750244397691994}
   - component: {fileID: 65638309716897554}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: befriended:scotthall:Hips
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -147,7 +144,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4561575174443136}
   - component: {fileID: 137965602447112394}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: pCube10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -162,7 +159,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4080914255135922}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: befriended:scotthall:LeftToes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -193,7 +190,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4586025693216932}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: transform1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -208,7 +205,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4306755392796814}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: befriended:scotthall:Spine1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -223,7 +220,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4235976073810412}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: befriended:scotthall:RightFootEnd
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -238,7 +235,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4250674685220516}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: befriended:scotthall:LeftUpLegRoll
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -253,7 +250,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4502993513283998}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: befriended:scotthall:LeftFoot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -268,7 +265,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4880150707266268}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: befriended:scotthall:Spine2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -284,7 +281,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4923466045140518}
   - component: {fileID: 137274555100004996}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: pCube9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -299,7 +296,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4370504960834988}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: befriended:scotthall:RightLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -314,7 +311,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4443219515060958}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: befriended:scotthall:LeftLegRoll
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -329,7 +326,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4365710209676112}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: befriended:scotthall:RightToes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -344,7 +341,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4305507181237286}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: befriended:scotthall:RightLegRoll
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -374,7 +371,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4848986141842702}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: befriended:scotthall:Spine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -389,7 +386,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4919888784790530}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: befriended:scotthall:LeftUpLeg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -404,7 +401,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4878105043354102}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: befriended:scotthall:LeftFootEnd
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -436,7 +433,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4536731469836650}
   - component: {fileID: 137228134287703632}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: pCube8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -464,7 +461,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1006317614263492}
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
-  m_LocalPosition: {x: -1.9053369, y: 29.822708, z: -19.02}
+  m_LocalPosition: {x: 0.78, y: 0.5, z: 16.12}
   m_LocalScale: {x: 15, y: 15, z: 15}
   m_Children:
   - {fileID: 4927240892515168}
@@ -1038,18 +1035,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &114793494483337446
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1006317614263492}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 94cb835805a26463a97d3ec58cdeeb11, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveRadius: 1
 --- !u!114 &114901916428936816
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1064,17 +1049,6 @@ MonoBehaviour:
   hitSound: {fileID: 0}
   audioSource: {fileID: 82724446129872828}
   forceMultiplier: 1000
---- !u!114 &114955663240139130
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1006317614263492}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 74c1da824eff24d2d8d99350d4330c05, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!137 &137228134287703632
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
@@ -1222,24 +1196,3 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.0017782366, y: 0.120881006, z: -0.059194937}
     m_Extent: {x: 0.03245549, y: 0.09335725, z: 0.12929317}
   m_DirtyAABB: 0
---- !u!195 &195770338952544610
-NavMeshAgent:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1006317614263492}
-  m_Enabled: 1
-  m_AgentTypeID: 0
-  m_Radius: 0.5
-  m_Speed: 1
-  m_Acceleration: 8
-  avoidancePriority: 50
-  m_AngularSpeed: 120
-  m_StoppingDistance: 0
-  m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
-  m_AutoRepath: 1
-  m_Height: 2
-  m_BaseOffset: 0
-  m_WalkableMask: 4294967295
-  m_ObstacleAvoidanceType: 4

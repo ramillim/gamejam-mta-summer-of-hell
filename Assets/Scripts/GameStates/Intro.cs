@@ -22,8 +22,7 @@ public class Intro : MonoBehaviour
 
     private void HandleOnStateChange()
     {
-        Debug.Log("State change... preparing to load next scenes.");
-        Invoke("LoadNextScene", 3f);
+        Invoke("LoadNextScene", 5f);
     }
 
     private void LoadNextScene()
