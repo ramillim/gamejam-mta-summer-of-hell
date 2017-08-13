@@ -120,7 +120,7 @@ GameObject:
   - component: {fileID: 33228037101322182}
   - component: {fileID: 23377942540145280}
   m_Layer: 10
-  m_Name: Hornet001
+  m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -165,8 +165,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1877098751202154}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.7453369, y: 31.072708, z: -35.79113}
+  m_LocalRotation: {x: 0, y: 0.19149423, z: 0, w: 0.9814938}
+  m_LocalPosition: {x: -2.44, y: 31.072708, z: -37.458}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children:
   - {fileID: 4861613012973546}
@@ -495,7 +495,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
-    m_RotationOrder: 4
+    m_RotationOrder: 0
   reverbZoneMixCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -522,7 +522,7 @@ AudioSource:
   m_Volume: 0.15
   m_Pitch: 1
   Loop: 1
-  Mute: 0
+  Mute: 1
   Spatialize: 0
   SpatializePostEffects: 0
   Priority: 128
