@@ -13,4 +13,10 @@ EditorBuildSettings:
     guid: 45adc2a97de03664eb43240359ae48d7
   - enabled: 1
     path: Assets/Scenes/RealWorld.unity
+    guid: ec498a0eb9fec41a08011a65c39f23f8
+  - enabled: 1
+    path: Assets/Scenes/VirtualSubway.unity
+    guid: db966199638f01c4386a2bb52fc85219
+  - enabled: 1
+    path: Assets/Scenes/VirtualSubway2.unity
     guid: 00000000000000000000000000000000
