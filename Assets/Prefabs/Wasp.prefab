@@ -165,8 +165,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1877098751202154}
-  m_LocalRotation: {x: 0, y: 0.19149423, z: 0, w: 0.9814938}
-  m_LocalPosition: {x: -2.44, y: 31.072708, z: -37.458}
+  m_LocalRotation: {x: 0, y: -0.22384544, z: 0, w: 0.9746247}
+  m_LocalPosition: {x: -3.01, y: 32.13, z: -31.5}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children:
   - {fileID: 4861613012973546}
@@ -175,7 +175,7 @@ Transform:
   - {fileID: 4892595880351546}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 22.08, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -25.87, z: 0}
 --- !u!4 &4286829189121022
 Transform:
   m_ObjectHideFlags: 1
@@ -522,7 +522,7 @@ AudioSource:
   m_Volume: 0.15
   m_Pitch: 1
   Loop: 1
-  Mute: 1
+  Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
   Priority: 128
@@ -616,6 +616,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitSound: {fileID: 8300000, guid: 6ccde7f8a3a7e4f439ba0228526d527b, type: 3}
   audioSource: {fileID: 82327958350888324}
+  forceMultiplier: 1000
 --- !u!114 &114969606369571648
 MonoBehaviour:
   m_ObjectHideFlags: 1
