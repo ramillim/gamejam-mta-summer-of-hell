@@ -461,7 +461,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1006317614263492}
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
-  m_LocalPosition: {x: 1.88, y: 0.5, z: 19.72}
+  m_LocalPosition: {x: 0.78, y: 0.5, z: 16.12}
   m_LocalScale: {x: 15, y: 15, z: 15}
   m_Children:
   - {fileID: 4927240892515168}
@@ -847,7 +847,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!65 &65638309716897554
 BoxCollider:
@@ -1049,7 +1049,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83488717e03f87146a4ac706eb573a99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitSound: {fileID: 0}
+  hitSound: {fileID: 8300000, guid: 6ccde7f8a3a7e4f439ba0228526d527b, type: 3}
   audioSource: {fileID: 82724446129872828}
   forceMultiplier: 1000
 --- !u!137 &137228134287703632
