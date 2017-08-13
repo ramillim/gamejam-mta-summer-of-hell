@@ -2213,9 +2213,9 @@ AudioSource:
   m_Pitch: 1
   Loop: 1
   Mute: 0
-  Spatialize: 0
+  Spatialize: 1
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 60
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -2659,7 +2659,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b7482812500f449f8d246d5938ecac3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stickTip: {fileID: 4980415054314378}
+  stickTip: {fileID: 4133177309540126}
   initialDelay: 0.5
   repeatDelay: 0.01
 --- !u!114 &114139617658199918
@@ -2947,7 +2947,7 @@ MonoBehaviour:
   minSpeed: 7
   maxSpeed: 11
   minVolume: 0
-  maxVolume: 0.6
+  maxVolume: 1
   minPitch: 0.3
   maxPitch: 1
 --- !u!114 &114470552119183920
